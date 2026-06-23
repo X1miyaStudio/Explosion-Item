@@ -1,0 +1,11 @@
+execute if score @s ei.power matches ..8 run particle minecraft:smoke ~ ~0.2 ~ 0.18 0.18 0.18 0.01 6 force @a[distance=..32]
+execute if score @s ei.power matches 9..24 run particle minecraft:flame ~ ~0.2 ~ 0.25 0.25 0.25 0.02 12 force @a[distance=..48]
+execute if score @s ei.power matches 25..60 run particle minecraft:crit ~ ~0.35 ~ 0.4 0.4 0.4 0.08 24 force @a[distance=..72]
+execute if score @s ei.power matches 61..120 run particle minecraft:end_rod ~ ~0.45 ~ 0.7 0.7 0.7 0.08 40 force @a[distance=..112]
+execute if score @s ei.power matches 121..250 run particle minecraft:dragon_breath ~ ~0.55 ~ 1.0 1.0 1.0 0.05 70 force @a[distance=..160]
+execute if score @s ei.power matches 251..400 run particle minecraft:explosion ~ ~0.55 ~ 1.4 1.4 1.4 0.04 12 force @a[distance=..220]
+execute if score @s ei.power matches 401.. run particle minecraft:explosion ~ ~0.65 ~ 2.0 2.0 2.0 0.05 20 force @a[distance=..320]
+
+execute if entity @s[tag=ei_unstable] run particle minecraft:lava ~ ~0.25 ~ 0.4 0.4 0.4 0.02 10 force @a[distance=..96]
+execute if entity @s[tag=ei_magic] run particle minecraft:enchanted_hit ~ ~0.35 ~ 0.65 0.65 0.65 0.08 35 force @a[distance=..144]
+execute if entity @s[tag=ei_relic] run particle minecraft:totem_of_undying ~ ~0.45 ~ 0.8 0.8 0.8 0.06 40 force @a[distance=..192]
