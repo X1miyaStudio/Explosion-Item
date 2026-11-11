@@ -20,6 +20,11 @@ Every dropped item becomes a short-fuse hazard. Explosion power scales with item
 
 ## Installation
 
-Back up the world, place the ZIP in `<world>/datapacks/`, then run `/reload`.
+Back up the world, download either the English (`Explosion_Item_v2_1.21.11_EN.zip`) or Russian (`Explosion_Item_v2_1.21.11_RU.zip`) build, place one ZIP in `<world>/datapacks/`, then run `/reload`.
+
+## Links
+
+- **Modrinth:** https://modrinth.com/datapack/explosion-item
+- **CurseForge (EN + RU):** https://www.curseforge.com/minecraft/data-packs/explosion-item
 
 Minecraft Java Edition **1.21.11** · Vanilla datapack · Namespace `explosion_item` · All Rights Reserved · X1miyaStudio
