@@ -20,6 +20,11 @@
 
 ## Установка
 
-Сделай резервную копию мира, помести ZIP в `<мир>/datapacks/`, затем выполни `/reload`.
+Сделай резервную копию мира, выбери нужную сборку (`Explosion_Item_v2_1.21.11_RU.zip` или `Explosion_Item_v2_1.21.11_EN.zip`), помести один ZIP в `<мир>/datapacks/`, затем выполни `/reload`.
+
+## Ссылки
+
+- **Modrinth:** https://modrinth.com/datapack/explosion-item
+- **CurseForge (EN + RU):** https://www.curseforge.com/minecraft/data-packs/explosion-item
 
 Minecraft Java Edition **1.21.11** · Ванильный датапак · Namespace `explosion_item` · All Rights Reserved · X1miyaStudio
