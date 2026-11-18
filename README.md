@@ -1,5 +1,12 @@
 # Explosion Item v2
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Language-English-00FF88?style=flat-square" alt="English" />
+  <a href="README_RU.md">
+    <img src="https://img.shields.io/badge/%D0%AF%D0%B7%D1%8B%D0%BA-%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-0D1117?style=flat-square&logo=googletranslate&logoColor=white" alt="Русская версия" />
+  </a>
+</p>
+
 Every dropped item becomes a short-fuse hazard. Explosion power scales with item value and stack size, from small junk blasts to endgame meteor fields.
 
 > **Warning:** this datapack is intentionally destructive. Back up important worlds before enabling block damage.
@@ -11,11 +18,14 @@ Every dropped item becomes a short-fuse hazard. Explosion power scales with item
 - Large stacks add extra power.
 - High-value drops can trigger chain reactions, TNT, lightning, and impact fields.
 - Explosion power is capped at 500.
+- Built-in crater debris protection stops broken explosion blocks from triggering infinite runaway chain reactions (active armed limit: 24 ambient / 48 total).
 
 ## Safety
 
-- `/function explosion_item:config/safe_world` — disable block damage.
-- `/function explosion_item:config/block_damage` — enable block damage.
+- `/function explosion_item:config/safe_world` — disable creeper block damage (`mob_griefing false`).
+- `/function explosion_item:config/block_damage` — enable creeper block damage (`mob_griefing true`).
+- `/function explosion_item:config/thrown_only` — only arm items thrown by players (ignore natural/mob drops).
+- `/function explosion_item:config/all_drops` — re-enable all non-debris drops (default, with crater debris protection).
 - `/function explosion_item:uninstall` — remove datapack objectives.
 
 ## Installation

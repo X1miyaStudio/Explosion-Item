@@ -1,3 +1,5 @@
+scoreboard players set #ei.blast_cooldown ei.timer 120
+
 execute if score @s ei.power matches 25.. as @e[type=minecraft:item,tag=ei_armed,distance=0.1..8] run scoreboard players add @s ei.timer 60
 execute if score @s ei.power matches 100.. as @e[type=minecraft:item,tag=ei_armed,distance=0.1..16] run scoreboard players add @s ei.timer 100
 execute if score @s ei.power matches 250.. as @e[type=minecraft:item,tag=ei_armed,distance=0.1..28] run scoreboard players add @s ei.timer 160

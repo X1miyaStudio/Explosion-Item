@@ -1,3 +1,4 @@
+scoreboard players set #ei.blast_cooldown ei.timer 120
 summon minecraft:lightning_bolt ~ ~ ~
 summon minecraft:tnt ~ ~ ~ {Fuse:20s,fuse:20s}
 summon minecraft:tnt ~2 ~ ~ {Fuse:30s,fuse:30s}
